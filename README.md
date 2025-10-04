@@ -21,7 +21,6 @@ In this experiment, we employed the following strategies.
 -->
 <br>
 <br>
-<br>
 <b>Divide-and-Conquer Strategy</b><br>
 In this experiment with the TensorFlowFlexUNet segmentation model, 
 since the images and masks in the training dataset are very large (4288x2848 pixels),
