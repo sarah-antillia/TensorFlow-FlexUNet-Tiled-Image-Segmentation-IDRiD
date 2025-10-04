@@ -53,7 +53,7 @@ and reduced to 512x512 pixels image and mask dataset from the master 4288x2848 p
 <br>
 <b>3. Tiled Image Segmentation</b><br>
 We applied our Tiled-Image Segmentation inference method to predict the colorized 
-Microaneurysms, Haemorrhages, Hard Exudates, Soft Exudates, Optic Dis )c
+Microaneurysms, Haemorrhages, Hard Exudates, Soft Exudates, Optic Disc
 legions for the mini_test images with a resolution of 4288x2848 pixels.<br><br>
 
 <hr>
