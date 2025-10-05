@@ -55,6 +55,15 @@ and reduced to 512x512 pixels image and mask dataset from the master 4288x2848 p
 We applied our Tiled-Image Segmentation inference method to predict the colorized 
 Microaneurysms, Haemorrhages, Hard Exudates, Soft Exudates, Optic Disc
 legions for the mini_test images with a resolution of 4288x2848 pixels.<br><br>
+<b>What is Tiled Image Segmentation? </b><br>
+A. Divide a large image into a set of numerous small tiles which can be
+acceptable pixel size to your Segmentation model.
+<br>
+B. Make predictions to these tiles respectively by using the Segmentation Model trained by your Tiled ImageMask Dataset.
+<br>
+C. Stich back the obtained predictions for these tiles to the original positions to generate 
+the prediction result for the original whole large image.<br>
+<br>
 
 <hr>
 <b>Acutual Tiled Image Segmentation for IDRiD Images of 4288x2848 pixels</b><br>
